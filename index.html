@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <title>Tom's Jazz School</title>
 </head>
@@ -10,12 +11,12 @@
 <body>
     <header>
         <div class="container">
-        <img src="img/logo.svg" alt="Logo Tom's Jazz School">
+        <img class="logo" src="img/logo.svg" alt="Logo Tom's Jazz School">
         <nav>
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
+            <a href="index.html">Início</a>
+            <a href="#cursos">Cursos</a>
+            <a href="https://visitesaopaulo.com/festivais-de-musica-5-eventos-em-sp-que-vao-bombar-em-2023/">Eventos</a>
+            <a href="#contato">Contato</a>
         </nav>
         <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
         </div>
@@ -28,18 +29,18 @@
         <div>
             <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com a música</h1>
             <p class="mt-2 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur eos fuga harum maiores iusto porro laboriosam consequuntur vel molestias.</p>
-            <a href="#" class="button">Comece agora</a>
+            <a href="https://www.udemy.com/course/curso-completo-de-teoria-musical-1/?gclid=CjwKCAjwtuOlBhBREiwA7agf1iLXj0eidrkc-TjoUetReabgxIdeh_R3dHq8AOd7tm225AQw0uM9HRoCvxAQAvD_BwE&utm_campaign=MusicTheory_new_v.NONP_la.PT_cc.BR_ti.6860&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords-intl&utm_term=_._ag_98441992701_._kw_teoria+musical+cursos_._ad_654114742240_._de_c_._dm__._pl__._ti_kwd-396451715015_._li_1001773_._pd__._" class="button">Comece agora</a>
         </div>
     </div>
     </section>
 
-    <section class="courses-section">
+    <section class="courses-section" id="cursos">
         <div class="cards">
             <article class="card">
                 <img src="img/piano.png" alt="Icone teclas de piano">
                 <strong>Piano popular</strong>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <a href="#">
+                <a href="https://www.musicdot.com.br/cursos-online-teclado-piano">
                     <img src="img/arrow-right.svg" alt="Ir para a página do curso">
                 </a>
             </article>
@@ -47,7 +48,7 @@
                 <img src="img/clef.png" alt="Icone da clave de sol">
                 <strong>Teoria Musical</strong>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <a href="#">
+                <a href="https://www.musicdot.com.br/cursos-online-teoria-percepcao">
                     <img src="img/arrow-right.svg" alt="Ir para a página do curso">
                 </a>
             </article>
@@ -55,7 +56,7 @@
                 <img src="img/sax.png" alt="Icone de saxofone">
                 <strong>Sax</strong>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <a href="#">
+                <a href="https://www.musicdot.com.br/cursos-online-sopro">
                     <img src="img/arrow-right.svg" alt="Ir para a página do curso">
                 </a>
             </article>
@@ -63,18 +64,18 @@
                 <img src="img/drums.png" alt="Icone de bateria">
                 <strong>Bateria</strong>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <a href="#">
+                <a href="https://www.musicdot.com.br/cursos-online-bateria">
                     <img src="img/arrow-right.svg" alt="Ir para a página do curso">
                 </a>
             </article>
         </div>
 
-<h2 class="text-center">E <span class="text-primary">Vários</span> outros!</h2>
-<a href="#" class="button mt-2 mx-auto">Conhecer cursos</a>
+    <h2 class="text-center">E <span class="text-primary">Vários</span> outros!</h2>
+    <a href="https://www.musicdot.com.br/" class="button mt-2 mx-auto">Conhecer cursos</a>
 </section>
 </main>
 
-<footer>
+<footer id="contato">
     <div class="container">
         <div class="about-column">
         <img src="img/logo.svg" alt="Tom's Jazz School" class="mb-1 mt-1">
@@ -87,7 +88,7 @@
             <a href="#">Contato</a>
         </nav>
         <form class="newsletter-form">
-            <label for="email" class="mb-1">Receba materias no seu email</label>
+            <label for="email" class="mb-1">Receba matérias no seu email</label>
             <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu e-mail">
             <button class="button mb-2">Quero receber</button>
         </form>
